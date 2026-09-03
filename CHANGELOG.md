@@ -2,12 +2,6 @@
 
 Alle relevanten Änderungen an den im Projekt hochgeladenen und veränderten Dateien werden in dieser Datei dokumentiert.
 
-## [1.0.0] - 2026-09-03
-
-### Hinzugefügt
-
-- Initiale Veröffentlichung der Datei `main.scss` als zentrale SCSS-Datei für das ISOBAUTEC-Website-Styling.
-
 ## [1.1.5] - 2026-09-03
 
 ### Geändert
@@ -63,6 +57,7 @@ Alle relevanten Änderungen an den im Projekt hochgeladenen und veränderten Dat
 
 ### Hinzugefügt
 
+- Initiale Veröffentlichung der Datei `main.scss` als zentrale SCSS-Datei für das ISOBAUTEC-Website-Styling.
 - Initiale Veröffentlichung von `ib-projektgalerie.js` mit Sticky-Scroll-Projektgalerie, Lightbox, Hover-Parallax und Responsive-Verhalten.
 - Unveränderte Veröffentlichung von `rsce_ib_hero_config.php`.
 - Initiale Veröffentlichung von `rsce_ib_projects_config.php` als RSCE-Konfiguration für den Projekt-Scroller „IB · Projekt“.
