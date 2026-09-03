@@ -11,26 +11,10 @@ return array(
     'standardFields' => array('cssID'),
 
     'fields' => array(
-        'image' => array(
-            'label' => array('Hintergrundbild', 'Austauschbares Hero-Hintergrundbild.'),
-            'inputType' => 'fileTree',
-            'eval' => array(
-                'fieldType' => 'radio',
-                'filesOnly' => true,
-                'extensions' => 'jpg,jpeg,png,webp',
-            ),
+        'hero_content' => array(
+            'label' => 'Hero-Inhalt',
+            'inputType' => 'group',
         ),
-
-        'video' => array(
-            'label' => array('Hintergrundvideo', 'Wird nur verwendet, wenn kein Bild gesetzt ist.'),
-            'inputType' => 'fileTree',
-            'eval' => array(
-                'fieldType' => 'radio',
-                'filesOnly' => true,
-                'extensions' => 'mp4,webm,ogg',
-            ),
-        ),
-
         'eyebrow' => array(
             'label' => array('Hero-Kicker', 'Text oberhalb der Hauptüberschrift.'),
             'inputType' => 'text',
@@ -49,6 +33,10 @@ return array(
             ),
         ),
 
+        'tipping_words' => array(
+            'label' => 'Tipping-Wörter',
+            'inputType' => 'group',
+        ),
         'type_color' => array(
             'label' => array('Tipping-Farbe', 'Leer = Originalfarbe #C97267.'),
             'inputType' => 'text',
@@ -104,6 +92,10 @@ return array(
             'eval' => array('tl_class' => 'long'),
         ),
 
+        'hero_buttons' => array(
+            'label' => 'Buttons',
+            'inputType' => 'group',
+        ),
         'buttons' => array(
             'label' => array('Buttons', 'Beliebig viele Buttons hinzufügen.'),
             'inputType' => 'list',
@@ -120,28 +112,28 @@ return array(
                 ),
             ),
         ),
-    ),
-
-    'fieldsets' => array(
-        'hero_content' => array(
-            'label' => 'Hero-Inhalt',
-            'collapsed' => true,
-            'fields' => array('eyebrow', 'hero_heading_intro', 'cta_headline'),
-        ),
-        'tipping_words' => array(
-            'label' => 'Tipping-Wörter',
-            'collapsed' => true,
-            'fields' => array('type_color', 'type_words_formatted'),
-        ),
-        'hero_buttons' => array(
-            'label' => 'Buttons',
-            'collapsed' => true,
-            'fields' => array('buttons'),
-        ),
         'hero_image' => array(
             'label' => 'Bild',
-            'collapsed' => true,
-            'fields' => array('image', 'video'),
+            'inputType' => 'group',
+        ),
+        'image' => array(
+            'label' => array('Hintergrundbild', 'Austauschbares Hero-Hintergrundbild.'),
+            'inputType' => 'fileTree',
+            'eval' => array(
+                'fieldType' => 'radio',
+                'filesOnly' => true,
+                'extensions' => 'jpg,jpeg,png,webp',
+            ),
+        ),
+
+        'video' => array(
+            'label' => array('Hintergrundvideo', 'Wird nur verwendet, wenn kein Bild gesetzt ist.'),
+            'inputType' => 'fileTree',
+            'eval' => array(
+                'fieldType' => 'radio',
+                'filesOnly' => true,
+                'extensions' => 'mp4,webm,ogg',
+            ),
         ),
     ),
 );

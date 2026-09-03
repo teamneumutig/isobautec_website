@@ -2,6 +2,14 @@
 
 Alle relevanten Änderungen an den im Projekt hochgeladenen und veränderten Dateien werden in dieser Datei dokumentiert.
 
+## [1.1.4] - 2026-09-03
+
+### Behoben
+
+- Die nicht verarbeitete `fieldsets`-Definition wurde durch die von RSCE unterstützte `inputType => 'group'`-Struktur ersetzt.
+- Dadurch werden „Hero-Kicker“, „Hero-Überschrift“ und „Text unterhalb des Tipp-Hinweises“ tatsächlich innerhalb der Gruppe „Hero-Inhalt“ dargestellt.
+- Die vorhandenen technischen Feldnamen, gespeicherten Inhalte und Felddefinitionen bleiben erhalten.
+
 ## [1.1.3] - 2026-09-03
 
 ### Geändert
