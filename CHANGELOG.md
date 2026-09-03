@@ -44,7 +44,7 @@ Alle relevanten Änderungen an den im Projekt hochgeladenen und veränderten Dat
 
 ### Geändert
 
-- Das bestehende Mehrfachfeld „Bilder“ im RSCE „IB · Projekt“ unterstützt nun die allgemeine Sortierung der ausgewählten Dateien per Drag & Drop.
+- Das bestehende Mehrfachfeld „Bilder“ in `rsce_ib_projects_config.php` im RSCE „IB · Projekt“ unterstützt nun die allgemeine Sortierung der ausgewählten Dateien per Drag & Drop.
 - Die gespeicherte Reihenfolge wird unverändert für die Ausgabe im Frontend verwendet.
 - In `ib-projektgalerie.js` bleibt das aktive Projektbild vollständig scharf und erhält immer `blur: 0`.
 - Der bestehende 3D-/Scroll-Effekt sowie die Unschärfe der übrigen Bilder bleiben erhalten.
