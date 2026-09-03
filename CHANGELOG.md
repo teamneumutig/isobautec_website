@@ -2,6 +2,15 @@
 
 Alle relevanten Änderungen an den im Projekt hochgeladenen und veränderten Dateien werden in dieser Datei dokumentiert.
 
+## [1.1.2] - 2026-09-03
+
+### Bericht
+
+- Die aktualisierte `rsce_ib_hero_config.php` wurde auf GitHub veröffentlicht.
+- Die Backend-Felder des „Hero-Bereichs“ sind in die auf- und zuklappbaren Gruppen „Hero-Inhalt“, „Tipping-Wörter“, „Buttons“ und „Bild“ gegliedert.
+- Die vorhandenen Felder, technischen Feldnamen und Inhalte wurden unverändert beibehalten.
+- Twig-, CSS- und JavaScript-Dateien wurden nicht geändert.
+
 ## [1.1.1] - 2026-09-03
 
 ### Geändert
