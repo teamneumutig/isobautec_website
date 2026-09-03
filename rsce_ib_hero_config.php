@@ -34,7 +34,7 @@ return array(
         ),
 
         'tipping_words' => array(
-            'label' => 'Tipping-Wörter',
+            'label' => 'Tipping Farbe',
             'inputType' => 'group',
         ),
         'type_color' => array(

@@ -2,6 +2,13 @@
 
 Alle relevanten Änderungen an den im Projekt hochgeladenen und veränderten Dateien werden in dieser Datei dokumentiert.
 
+## [1.1.5] - 2026-09-03
+
+### Geändert
+
+- Die sichtbare Bezeichnung der Tipping-Gruppe im Contao-Backend wurde auf „Tipping Farbe“ angepasst.
+- Die technische Gruppen-ID `tipping_words` sowie alle Feldnamen, Inhalte und Funktionen bleiben unverändert.
+
 ## [1.1.4] - 2026-09-03
 
 ### Behoben
