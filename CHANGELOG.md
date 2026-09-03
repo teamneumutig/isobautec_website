@@ -2,6 +2,13 @@
 
 Alle relevanten Änderungen an den im Projekt hochgeladenen und veränderten Dateien werden in dieser Datei dokumentiert.
 
+## [1.0.1] - 2026-09-03
+
+### Geändert
+
+- Das bestehende Mehrfachfeld „Bilder“ im RSCE „IB · Projekt“ unterstützt nun die allgemeine Sortierung der ausgewählten Dateien per Drag & Drop.
+- Die gespeicherte Reihenfolge wird unverändert für die Ausgabe im Frontend verwendet.
+
 ## [1.0.0] - 2026-09-03
 
 ### Hinzugefügt

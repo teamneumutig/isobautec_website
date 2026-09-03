@@ -104,6 +104,7 @@ return [
                     'eval' => [
                         'multiple' => true,
                         'fieldType' => 'checkbox',
+                        'orderField' => 'sorting',
                         'filesOnly' => true,
                         'extensions' => 'jpg,jpeg,png,webp,avif',
                         'tl_class' => 'clr',
