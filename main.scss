@@ -5,7 +5,7 @@
     font-style: normal;
     font-display: swap;
       font-weight: 400;
-
+}
 @font-face {
     font-family: "IBM Plex Sans";
     src: url("/files/isobautec/fonts/IBMPlexSans-Medium.woff2") format("woff2");
@@ -470,7 +470,7 @@ button {
       color: #F4F4F0;
       font-family: "IBM Plex Sans", Arial, Helvetica, sans-serif;
       font-size: clamp(3.2rem, 5.4vw, 6rem);
-      font-weight: 700;
+            font-weight: 400;
       line-height: 1.25;
       letter-spacing: 0;
       text-wrap: balance;
