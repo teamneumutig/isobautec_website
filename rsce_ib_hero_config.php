@@ -2,7 +2,7 @@
 
 return array(
     'label' => array(
-        'IB · Hero',
+        'Hero-Bereich',
         'ISOBAUTEC Hero – Hintergrund, Überschrift, Tipping und CTA',
     ),
 
@@ -51,7 +51,7 @@ return array(
 
         'typing_headline' => array(
             'label' => array(
-                'Text direkt vor dem Tipping',
+                'Text oberhalb des Tipp-Hinweises',
                 'Einzelne Wörter können mit TinyMCE fett oder kursiv formatiert werden.',
             ),
             'inputType' => 'textarea',
@@ -111,7 +111,7 @@ return array(
         ),
 
         'cta_headline' => array(
-            'label' => array('Beschreibung', 'Text unterhalb der Hero-Überschrift.'),
+            'label' => array('Text unterhalb des Tipp-Hinweises', 'Text unterhalb der Hero-Überschrift.'),
             'inputType' => 'textarea',
             'eval' => array('tl_class' => 'long'),
         ),
