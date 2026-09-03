@@ -47,7 +47,7 @@ Alle relevanten Änderungen an den im Projekt hochgeladenen und veränderten Dat
 ### Geändert
 
 - Das bestehende Mehrfachfeld „Bilder“ in `rsce_ib_projects_config.php` im RSCE „IB · Projekt“ unterstützt nun die allgemeine Sortierung der ausgewählten Dateien per Drag & Drop.
-- Die gespeicherte Reihenfolge wird unverändert für die Ausgabe im Frontend verwendet. (Leider war das nicht ganz so, wie es sein sollte.. Es waren im Backend diesbezüglich noch Fehler)
+- Die gespeicherte Reihenfolge wird unverändert für die Ausgabe im Frontend verwendet. (Leider war das nicht ganz so, wie es sein sollte. Es waren im Backend diesbezüglich noch Fehler)
 - In `ib-projektgalerie.js` bleibt das aktive Projektbild vollständig scharf und erhält immer `blur: 0`.
 - Der bestehende 3D-/Scroll-Effekt sowie die Unschärfe der übrigen Bilder bleiben erhalten.
 - In `rsce_ib_hero_config.php` wurden die sichtbaren Backend-Bezeichnungen des Elements und der Hero-Texte präzisiert.
