@@ -32,6 +32,7 @@
         const timelineStart = -1.0;
         const timelineEnd = count + 0.42;
         const timeline = timelineStart + rawProgress * (timelineEnd - timelineStart);
+        const activeIndex = clamp(Math.round(timeline), 0, count - 1);
 
         shots.forEach((shot, index) => {
             const distance = index - timeline;
@@ -53,7 +54,7 @@
             const smoothVisibility = visibility * visibility * (3 - 2 * visibility);
             const opacity = Math.pow(smoothVisibility, 1.35);
 
-            const blur = clamp(Math.pow(outside, 1.56) * 20, 0, 30);
+            const blur = index === activeIndex ? 0 : clamp(Math.pow(outside, 1.56) * 20, 0, 30);
             const z = -Math.pow(outside, 1.42) * 720;
             const rx = clamp(signedOutside * 64, -78, 78);
             const ry = clamp(direction * signedOutside * 32, -44, 44);
