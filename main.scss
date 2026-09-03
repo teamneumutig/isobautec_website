@@ -1149,9 +1149,7 @@ button {
         skewX(var(--skew, -7deg))
         scale(var(--scale, .34));
       filter:
-        blur(var(--blur, 18px))
-        saturate(.66)
-        contrast(.94);
+        blur(var(--blur, 18px));
       transform-origin: center center;
       will-change: transform, opacity, filter;
       pointer-events: auto;

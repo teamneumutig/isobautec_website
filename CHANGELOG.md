@@ -2,6 +2,12 @@
 
 Alle relevanten Änderungen an den im Projekt hochgeladenen und veränderten Dateien werden in dieser Datei dokumentiert.
 
+## [1.1] - 2026-09-03
+
+### Geändert
+
+- Aktualisierte Veröffentlichung der Datei `main.scss`.
+
 ## [1.1.5] - 2026-09-03
 
 ### Geändert
