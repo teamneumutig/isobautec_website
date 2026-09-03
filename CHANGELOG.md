@@ -38,7 +38,7 @@ Alle relevanten Änderungen an den im Projekt hochgeladenen und veränderten Dat
 ### Geändert
 
 - Das bestehende Mehrfachfeld „Bilder“ in `rsce_ib_projects_config.php` im RSCE „IB · Projekt“ unterstützt nun die allgemeine Sortierung der ausgewählten Dateien per Drag & Drop.
-- Die gespeicherte Reihenfolge wird unverändert für die Ausgabe im Frontend verwendet. (In dieser Version konnten dann die Bilder dementsprechend im Backend umsortiert werden.)
+- Die gespeicherte Reihenfolge wird unverändert für die Ausgabe im Frontend verwendet. (In dieser Version konnten dann die Bilder dementsprechend im Backend umsortiert werden. Änderungen Siehe in den entsprechenden Datei unter "Use Contao sortable file tree option"n) 
 - Die Felder der RSCE-Konfiguration „Hero-Bereich“ wurden im Contao-Backend in die auf- und zuklappbaren Gruppen „Hero-Inhalt“, „Tipping-Wörter“, „Buttons“ und „Bild“ gegliedert.
 - „Überschrift“ und „Text unterhalb des Tipp-Hinweises“ liegen gemeinsam in der Gruppe „Hero-Inhalt“.
 
@@ -47,7 +47,7 @@ Alle relevanten Änderungen an den im Projekt hochgeladenen und veränderten Dat
 ### Geändert
 
 - Das bestehende Mehrfachfeld „Bilder“ in `rsce_ib_projects_config.php` im RSCE „IB · Projekt“ unterstützt nun die allgemeine Sortierung der ausgewählten Dateien per Drag & Drop.
-- Die gespeicherte Reihenfolge wird unverändert für die Ausgabe im Frontend verwendet. (Leider können die Bilder in dieser Version im Backend noch nicht umsortiert werden.)
+- Die gespeicherte Reihenfolge wird unverändert für die Ausgabe im Frontend verwendet. (Leider können die Bilder in dieser Version im Backend noch nicht umsortiert werden. Änderungen Siehe in den entsprechenden Datei unter "Use Contao sortable file tree option" )
 - In `ib-projektgalerie.js` bleibt das aktive Projektbild vollständig scharf und erhält immer `blur: 0`.
 - Der bestehende 3D-/Scroll-Effekt sowie die Unschärfe der übrigen Bilder bleiben erhalten.
 - In `rsce_ib_hero_config.php` wurden die sichtbaren Backend-Bezeichnungen des Elements und der Hero-Texte präzisiert.
