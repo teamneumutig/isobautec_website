@@ -49,18 +49,6 @@ return array(
             ),
         ),
 
-        'typing_headline' => array(
-            'label' => array(
-                'Text oberhalb des Tipp-Hinweises',
-                'Einzelne Wörter können mit TinyMCE fett oder kursiv formatiert werden.',
-            ),
-            'inputType' => 'textarea',
-            'eval' => array(
-                'rte' => 'tinyMCE',
-                'tl_class' => 'long',
-            ),
-        ),
-
         'type_color' => array(
             'label' => array('Tipping-Farbe', 'Leer = Originalfarbe #C97267.'),
             'inputType' => 'text',
@@ -131,6 +119,13 @@ return array(
                     'eval' => array('tl_class' => 'w50'),
                 ),
             ),
+        ),
+    ),
+
+    'fieldsets' => array(
+        'hero_content' => array(
+            'label' => 'Hero-Inhalt',
+            'fields' => array('hero_heading_intro', 'cta_headline'),
         ),
     ),
 );

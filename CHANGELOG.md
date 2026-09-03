@@ -2,6 +2,13 @@
 
 Alle relevanten Änderungen an den im Projekt hochgeladenen und veränderten Dateien werden in dieser Datei dokumentiert.
 
+## [1.1.2] - 2026-09-03
+
+### Geändert
+
+- In `rsce_ib_hero_config.php` wurden „Überschrift“ und „Text unterhalb des Tipp-Hinweises“ in der Backend-Gruppe „Hero-Inhalt“ zusammengefasst.
+- Das Feld „Text unterhalb des Tipp-Hinweises“ folgt dort direkt auf die Überschrift.
+
 ## [1.1.0] - 2026-09-03
 
 ### Geändert
