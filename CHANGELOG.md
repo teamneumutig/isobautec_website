@@ -2,12 +2,12 @@
 
 Alle relevanten Änderungen an den im Projekt hochgeladenen und veränderten Dateien werden in dieser Datei dokumentiert.
 
-## [1.1.2] - 2026-09-03
+## [1.1.1] - 2026-09-03
 
 ### Geändert
 
-- In `rsce_ib_hero_config.php` wurden „Überschrift“ und „Text unterhalb des Tipp-Hinweises“ in der Backend-Gruppe „Hero-Inhalt“ zusammengefasst.
-- Das Feld „Text unterhalb des Tipp-Hinweises“ folgt dort direkt auf die Überschrift.
+- Die Felder der RSCE-Konfiguration „Hero-Bereich“ wurden im Contao-Backend in die auf- und zuklappbaren Gruppen „Hero-Inhalt“, „Tipping-Wörter“, „Buttons“ und „Bild“ gegliedert.
+- „Überschrift“ und „Text unterhalb des Tipp-Hinweises“ liegen gemeinsam in der Gruppe „Hero-Inhalt“.
 
 ## [1.1.0] - 2026-09-03
 

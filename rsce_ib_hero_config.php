@@ -125,7 +125,19 @@ return array(
     'fieldsets' => array(
         'hero_content' => array(
             'label' => 'Hero-Inhalt',
-            'fields' => array('hero_heading_intro', 'cta_headline'),
+            'fields' => array('eyebrow', 'hero_heading_intro', 'cta_headline'),
+        ),
+        'tipping_words' => array(
+            'label' => 'Tipping-Wörter',
+            'fields' => array('type_color', 'type_words_formatted'),
+        ),
+        'hero_buttons' => array(
+            'label' => 'Buttons',
+            'fields' => array('buttons'),
+        ),
+        'hero_image' => array(
+            'label' => 'Bild',
+            'fields' => array('image', 'video'),
         ),
     ),
 );
