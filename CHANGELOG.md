@@ -2,6 +2,12 @@
 
 Alle relevanten Änderungen an den im Projekt hochgeladenen und veränderten Dateien werden in dieser Datei dokumentiert.
 
+## [1.0.0] - 2026-09-03
+
+### Hinzugefügt
+
+- Initiale Veröffentlichung der Datei `main.scss` als zentrale SCSS-Datei für das ISOBAUTEC-Website-Styling.
+
 ## [1.1.5] - 2026-09-03
 
 ### Geändert
