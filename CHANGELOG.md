@@ -37,6 +37,8 @@ Alle relevanten Änderungen an den im Projekt hochgeladenen und veränderten Dat
 
 ### Geändert
 
+- Das bestehende Mehrfachfeld „Bilder“ in `rsce_ib_projects_config.php` im RSCE „IB · Projekt“ unterstützt nun die allgemeine Sortierung der ausgewählten Dateien per Drag & Drop.
+- Die gespeicherte Reihenfolge wird unverändert für die Ausgabe im Frontend verwendet.
 - Die Felder der RSCE-Konfiguration „Hero-Bereich“ wurden im Contao-Backend in die auf- und zuklappbaren Gruppen „Hero-Inhalt“, „Tipping-Wörter“, „Buttons“ und „Bild“ gegliedert.
 - „Überschrift“ und „Text unterhalb des Tipp-Hinweises“ liegen gemeinsam in der Gruppe „Hero-Inhalt“.
 
