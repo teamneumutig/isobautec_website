@@ -2,6 +2,13 @@
 
 Alle relevanten Änderungen an den im Projekt hochgeladenen und veränderten Dateien werden in dieser Datei dokumentiert.
 
+## [1.1.3] - 2026-09-03
+
+### Geändert
+
+- Die Fieldsets der RSCE-Konfiguration „Hero-Bereich“ werden im Contao-Backend über `collapsed => true` korrekt als auf- und zuklappbare Gruppen dargestellt.
+- Die Gruppe „Hero-Inhalt“ enthält „Hero-Kicker“, „Hero-Überschrift“ und „Text unterhalb des Tipp-Hinweises“.
+
 ## [1.1.2] - 2026-09-03
 
 ### Geändert
