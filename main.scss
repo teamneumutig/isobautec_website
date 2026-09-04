@@ -4,8 +4,8 @@
     font-weight: 400;
     font-style: normal;
     font-display: swap;
-      
 }
+
 @font-face {
     font-family: "IBM Plex Sans";
     src: url("/files/isobautec/fonts/IBMPlexSans-Medium.woff2") format("woff2");
@@ -470,7 +470,7 @@ button {
       color: #F4F4F0;
       font-family: "IBM Plex Sans", Arial, Helvetica, sans-serif;
       font-size: clamp(3.2rem, 5.4vw, 6rem);
-            font-weight: 400;
+      font-weight: 400;
       line-height: 1.25;
       letter-spacing: 0;
       text-wrap: balance;
@@ -1736,10 +1736,7 @@ button {
 
 .services .card__image {
     min-height: 0;
-    background:
-        linear-gradient(rgba(52,73,109,.35), rgba(52,73,109,.35)),
-        var(--image),
-        linear-gradient(145deg, #8794a8, #d7dbe1);
+    background:var(--image);
     background-size: cover;
     background-position: center;
 }

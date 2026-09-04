@@ -2,6 +2,12 @@
 
 Alle relevanten Änderungen an den im Projekt hochgeladenen und veränderten Dateien werden in dieser Datei dokumentiert.
 
+## [1.1.2] - 2026-09-04
+
+### Hinzugefügt
+
+- Die manuell aktualisierte Datei `main.scss` wurde auf GitHub veröffentlicht.
+
 ## [1.1.5] - 2026-09-03
 
 ### Geändert
