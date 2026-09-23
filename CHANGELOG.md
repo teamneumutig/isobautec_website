@@ -2,6 +2,14 @@
 
 Alle relevanten Änderungen an den im Projekt hochgeladenen und veränderten Dateien werden in dieser Datei dokumentiert.
 
+## [1.1.7] - 2026-09-23
+
+### Behoben
+
+- Die rote Trennlinie über den Kontaktdaten in der mobilen Navigation wurde auf die verfügbare Breite des Kontaktbereichs begrenzt.
+- Der linke Abstand bleibt unverändert erhalten und rechts wird nun ebenfalls ein gleichmäßiger Abstand zur Außenkante gelassen.
+- Nur `.site-nav__details::before` wurde angepasst; Höhe, Farbe, Navigationspunkte, Telefonnummer, E-Mail, SVG-Rahmen und Desktop-Verhalten bleiben unverändert.
+
 ## [1.1.6] - 2026-09-23
 
 ### Behoben
