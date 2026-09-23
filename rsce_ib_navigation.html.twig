@@ -21,9 +21,11 @@
                         {% if isContact %}
                             <a class="site-nav__contact" data-show-on-subpages="{{ showOnSubpages ? '1' : '0' }}" href="{{ href|e('html_attr') }}">
                                 <span class="site-nav__contact-label">{{ link.label|e }}</span>
-                                <svg class="site-nav__contact-border" viewBox="0 0 120 46" preserveAspectRatio="none" aria-hidden="true" focusable="false">
-                                    <path d="M 1 45 H 119 V 1 H 1 V 45" pathLength="100"></path>
-                                </svg>
+                                {% if isMobile is not defined or not isMobile %}
+                                    <svg class="site-nav__contact-border" viewBox="0 0 120 46" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+                                        <path d="M 1 45 H 119 V 1 H 1 V 45" pathLength="100"></path>
+                                    </svg>
+                                {% endif %}
                             </a>
                         {% else %}
                             <a data-show-on-subpages="{{ showOnSubpages ? '1' : '0' }}" href="{{ href|e('html_attr') }}">{{ link.label|e }}</a>
