@@ -2,6 +2,14 @@
 
 Alle relevanten Änderungen an den im Projekt hochgeladenen und veränderten Dateien werden in dieser Datei dokumentiert.
 
+## [1.1.8] - 2026-09-23
+
+### Behoben
+
+- Die rote Trennlinie vor `.site-nav__details` in der mobilen Navigation wurde so angepasst, dass sie nach links den bisherigen Abstand beibehält und rechts denselben Innenabstand einhält.
+- Die Linie läuft damit nicht mehr bis zur Außenkante des blauen Navigationsbereichs.
+- Die Position von Telefonnummer und E-Mail sowie die übrigen Navigationsstriche blieben unverändert.
+
 ## [1.1.7] - 2026-09-23
 
 ### Behoben
