@@ -2,6 +2,15 @@
 
 Alle relevanten Änderungen an den im Projekt hochgeladenen und veränderten Dateien werden in dieser Datei dokumentiert.
 
+## [1.1.6] - 2026-09-23
+
+### Behoben
+
+- Der rote Trennstrich oberhalb der Telefonnummer in der mobilen Navigation reicht jetzt bis zur rechten Kante des blauen mobilen Navigationsbereichs.
+- Der Strich beginnt weiterhin am linken Rand des Kontaktbereichs und nutzt dabei die vorhandenen seitlichen Abstände der mobilen Navigation responsiv korrekt.
+- Nur `.site-nav__details::before` wurde angepasst; andere Navigationsstriche, SVG-Rahmen, Telefonnummer und E-Mail bleiben unverändert.
+- Desktop-Verhalten wurde nicht verändert.
+
 ## [1.1.1] - 2026-09-23
 
 ### Behoben
