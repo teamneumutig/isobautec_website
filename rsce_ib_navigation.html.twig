@@ -1,0 +1,40 @@
+<header class="site-header" id="siteHeader">
+    <div class="site-header__inner">
+        <a class="site-logo" href="#top" aria-label="ISOBAUTEC Startseite">
+            <img src="/files/isobautec/Allgemeines/Logo/ISOBAUTEC-Logo_white02.svg" alt="ISOBAUTEC">
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="siteNavigation" aria-label="Menü öffnen">
+            <span></span>
+        </button>
+
+        <nav class="site-nav" id="siteNavigation" aria-label="Hauptnavigation">
+            {% if navigation %}
+                {% for link in navigation %}
+                    {% set showOnSubpages = link.showOnSubpages is not defined or link.showOnSubpages %}
+                    {% if link.url %}
+                        {% set href = link.url|insert_tag_raw %}
+                        {% if link.anchor %}
+                            {% set href = href ~ '#' ~ link.anchor|e('html_attr') %}
+                        {% endif %}
+                        {% set isContact = link.label|default('')|lower == 'kontakt' %}
+                        {% if isContact %}
+                            <a class="site-nav__contact" data-show-on-subpages="{{ showOnSubpages ? '1' : '0' }}" href="{{ href|e('html_attr') }}">
+                                <span class="site-nav__contact-label">{{ link.label|e }}</span>
+                                <svg class="site-nav__contact-border" viewBox="0 0 120 46" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+                                    <path d="M 1 45 H 119 V 1 H 1 V 45" pathLength="100"></path>
+                                </svg>
+                            </a>
+                        {% else %}
+                            <a data-show-on-subpages="{{ showOnSubpages ? '1' : '0' }}" href="{{ href|e('html_attr') }}">{{ link.label|e }}</a>
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+
+            <div class="site-nav__details" aria-label="Kontaktdaten"></div>
+        </nav>
+    </div>
+</header>
+
+<script src="/files/isobautec/js/navigation-subpages.js" defer></script>

@@ -2,6 +2,13 @@
 
 Alle relevanten Änderungen an den im Projekt hochgeladenen und veränderten Dateien werden in dieser Datei dokumentiert.
 
+## [1.0.0] - 2026-09-23
+
+### Hinzugefügt
+
+- Die Datei `rsce_ib_navigation.html.twig` wurde als erste Release-Version 1.0 in das GitHub-Repository hochgeladen.
+- Die Hauptnavigation wurde damit im Projekt als freigegebene Version aufgenommen und dokumentiert.
+
 ## [1.1.2] - 2026-09-04
 
 ### Hinzugefügt
