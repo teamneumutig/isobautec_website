@@ -2,6 +2,14 @@
 
 Alle relevanten Änderungen an den im Projekt hochgeladenen und veränderten Dateien werden in dieser Datei dokumentiert.
 
+## [1.1.4] - 2026-09-23
+
+### Behoben
+
+- Die horizontale Trennlinie im mobilen Kontaktbereich der Navigation wurde entfernt.
+- Die kurze rote Linie vor `.site-nav__details` bleibt unverändert erhalten.
+- Telefonnummer und E-Mail im Kontaktbereich wurden nicht geändert.
+
 ## [1.0.0] - 2026-09-23
 
 ### Hinzugefügt
