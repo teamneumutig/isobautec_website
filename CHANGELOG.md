@@ -23,12 +23,12 @@ Alle relevanten Änderungen an den im Projekt hochgeladenen und veränderten Dat
 - Dadurch werden „Hero-Kicker“, „Hero-Überschrift“ und „Text unterhalb des Tipp-Hinweises“ tatsächlich innerhalb der Gruppe „Hero-Inhalt“ dargestellt.
 - Die vorhandenen technischen Feldnamen, gespeicherten Inhalte und Felddefinitionen bleiben erhalten.
 
-## [1.1.3] - 2026-09-03
+## [1.1.3] - 2026-09-23
 
 ### Geändert
 
-- Die Fieldsets der RSCE-Konfiguration „Hero-Bereich“ werden im Contao-Backend über `collapsed => true` korrekt als auf- und zuklappbare Gruppen dargestellt.
-- Die Gruppe „Hero-Inhalt“ enthält „Hero-Kicker“, „Hero-Überschrift“ und „Text unterhalb des Tipp-Hinweises“.
+- Die benutzerdefinierten Schriftarten wurden entfernt, damit im Projekt nur noch eine Schriftart verwendet wird.
+- Die Datei `main.scss` wurde entsprechend auf eine einheitliche Schriftart bereinigt.
 
 
 ## [1.1.2] - 2026-09-03
