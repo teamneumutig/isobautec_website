@@ -587,8 +587,9 @@ button {
         content: "";
         position: absolute;
         top: 0;
-        left: 0;
-        width: calc(100% - 18px);
+        left: max(28px, 8vw);
+        right: max(28px, 8vw);
+        width: auto;
         height: 2px;
         background: #C97267;
       }

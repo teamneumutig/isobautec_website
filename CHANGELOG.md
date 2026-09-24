@@ -1,7 +1,14 @@
 # Changelog
 
 Alle relevanten Änderungen an den im Projekt hochgeladenen und veränderten Dateien werden in dieser Datei dokumentiert.
+## [1.1.9] - 2026-09-24
 
+### Behoben
+
+- Die rote Trennlinie über den Kontaktdaten in der mobilen Navigation wurde auf einen symmetrischen Innenabstand angepasst.
+- Der bestehende linke Abstand bleibt unverändert erhalten, und der rechte Abstand entspricht nun exakt dem gleichen Wert.
+- `.site-nav__details::before` verwendet nun `left` und `right` statt `width: 100%`, damit die Linie nicht bis zur Außenkante läuft.
+- Nur dieser mobile Strich wurde angepasst; Telefonnummer, E-Mail, andere Navigationsstriche, SVG-Rahmen und Desktop-Verhalten bleiben unverändert.
 ## [1.1.8] - 2026-09-23
 
 ### Behoben
