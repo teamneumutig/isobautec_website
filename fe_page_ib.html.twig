@@ -1,0 +1,16 @@
+{# Contao 5.7: Variante des regulären Frontend-Seitentemplates #}
+{% extends "@Contao/fe_page.html.twig" %}
+
+{% block head %}
+    {{ parent() }}
+
+    <meta property="og:title" content="{{ title|e }}">
+    <meta property="og:description" content="{{ description|e }}">
+    <meta property="og:image" content="{{ base }}files/isobautec/Allgemeines/Logo/ISOBAUTEC-Logo_white02.svg">
+{% endblock %}
+
+{% block body %}
+    {{ parent() }}
+
+    <script type="module" src="{{ asset('files/isobautec/js/main.js') }}"></script>
+{% endblock %}
