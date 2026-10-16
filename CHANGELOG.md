@@ -60,8 +60,11 @@ Alle relevanten Änderungen an den im Projekt hochgeladenen und veränderten Dat
 - Telefonnummer und E-Mail im Kontaktbereich wurden nicht geändert.
 
 ## [1.0.0] - 2026-09-23
+### Geändert
+Die Datei wurde von page_ib.html.twig in fe_page_ib.html.twig geändert und über das Layout im Contao Backend hinzu bzw. eingefügt, damit diese Datei beim Laden der Webseite geladen wird. Zuvor wurde noch ein kleiner Fehler behoben. 
 
 ### Hinzugefügt
 
 - Die Datei `rsce_ib_navigation.html.twig` wurde als erste Release-Version 1.0 in das GitHub-Repository hochgeladen.
 - Die Hauptnavigation wurde damit im Projekt als freigegebene Version aufgenommen und dokumentiert.
+- Die Datei "fe_page_ib.html " auf  GitHub hinzugefügt
